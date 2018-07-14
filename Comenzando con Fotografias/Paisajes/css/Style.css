@@ -9,8 +9,25 @@ body{
 #Cabecera{
     width: 100%;
     height: 100px;
-  background-color: #5b7989;
+  	background-color: #5b7989;
     border-radius: 10px 10px 0px 0px;
+	animation-name: Cabecera-animacion;
+	animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s; 
+	animation-delay: 1s;
+}
+@keyframes Cabecera-animacion {
+	0%{
+		margin-top: 150%;
+	}
+	60%{
+		margin-top: -5%;
+	}
+	100%{
+		margin-top: 0%;
+	}
 }
 .ancho{
   width: 95%;
@@ -36,11 +53,12 @@ body{
 }
 
 nav{
-    width: 100%;
-  height: 100px;
+   width: 35%;
   text-align: right;
   padding-top: 39px;
   box-sizing: border-box;
+  margin: auto;
+  float: right;
 }
 
 nav ul{
@@ -60,52 +78,40 @@ nav ul li a{
   font-family: 'Dancing Script', cursive;
 }
 
-.imgCentral{
-    width: 100%;
-    height: 500px;
-    background-color: #82c3a6;
-	display: block;
-	padding-top: 50px;
-	text-align: center;
-}
-
 img[src$=jpg]{
 	box-shadow: 2px 2px 2px #02010a;
 }
 
-.imgSecundaria{
+.Galeria{
 	width: 100%;
 	height: 700px;
-    background-color: #d5c75f;
-	text-align: center;
+	background-color: red;
+
 }
 
-.Imagenes2{
-	width: 90%;
+.cont{
+	width: 100%;
 	height: 700px;
-	text-align: center;
 	margin: auto;
 }
 
-.Img1{
+.Responsive{
+	padding-left: 30px;
+	padding-top: 30px;
 	float: left;
-	text-align: center;
 }
 
-.Img2{
-	float: right;
-	text-align: center;
+.Imagen1 img{
+	-webkit-filter:blur(10px);
 }
 
-h2{
-	padding-top: 5px;
-	text-decoration: underline;
-	font-family: 'Dancing Script', cursive;
+.Imagen3 img{
+	-webkit-filter:sepia(90%);
 }
 
-.Img1, .Img2{
-	padding-top: 115px;
-}
+.Imagen2, .Imagen4, .Imagen6 img{
+	-webkit-filter:grayscale(100%);
+} 
 
 footer{
 	width: 100%;
@@ -125,26 +131,25 @@ footer{
 	display: flex;
 }
 
-.row{
+.row1, .row2, .row3, .row4{
 	width: 25%;
-	text-align: ;
 	padding-top: 15px;
 	padding-left: 15px;
 	font-family: 'Dancing Script', cursive;
 }
 
-.row p{
+.Columnas p{
 	padding-top: 25px;
 	padding-left:px;
 	font-size: 20px;
 }
 
-.row a{
+.row3 a{
 	padding-top: 25px;
 	padding-left:px;
 	font-size: 20px;
 }
-.row img{
+.row3 img{
 	width: 15px;
 	height: 15px;
 }
@@ -153,6 +158,6 @@ footer{
 	text-decoration: underline;
 }
 
-.row a{
+.row3 a{
 	color: black;
 }

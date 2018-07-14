@@ -1,0 +1,77 @@
+@media (max-width:900px){
+	#Cabecera{
+		height: 150px;
+		text-align: center;
+	}
+	.logo{
+		width: 100%;
+		height: 30;
+		padding-top: 20;
+		text-align: center;
+	}
+	nav{
+		padding-top: 0;
+		height: 150px;
+		float: none;
+		text-align: center;
+	}
+	nav ul{
+		padding-top: 80px;
+	}
+	nav ul li a{
+		color: red;
+	}
+	.cont{
+		width: 50%;
+		margin: auto;
+		text-align: center;
+	}
+	.Galeria{
+		height: 2050px;
+	}
+}
+
+@media (max-width:880px){
+	.Galeria{
+		float: none;
+	}
+	.Responsive{
+		text-align: center;
+	}
+}
+
+@media (min-width:900px) and (max-width:1349px){
+	.Galeria{
+		height: 1050px;
+	}
+}
+
+@media (max-width:1370px){
+	.Responsive{
+		padding-left: 50px;
+	}
+}
+
+@media (max-width:900px){
+	footer{
+		height: 780px;
+		margin: auto;
+	}
+	
+	.row1, .row2, .row3, .row4{
+		padding-top: 20px;
+		padding-left: 10px;
+		
+	}
+	
+	.Cont{
+		width: 55%;
+		margin: auto;
+	}
+	
+	.Columnas{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+}
