@@ -79,7 +79,7 @@ nav ul li a{
 }
 
 img[src$=jpg]{
-	box-shadow: 2px 2px 2px #02010a;
+	box-shadow: 2px 2px 2px #02010a; 
 }
 
 .Galeria{
@@ -109,7 +109,7 @@ img[src$=jpg]{
 	-webkit-filter:sepia(90%);
 }
 
-.Imagen2, .Imagen4, .Imagen6 img{
+.Imagen2, .Imagen4, .Imagen6{
 	-webkit-filter:grayscale(100%);
 } 
 
@@ -140,7 +140,7 @@ footer{
 
 .Columnas p{
 	padding-top: 25px;
-	padding-left:px;
+	padding-left: 30px;
 	font-size: 20px;
 }
 

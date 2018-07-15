@@ -18,9 +18,6 @@
 	nav ul{
 		padding-top: 80px;
 	}
-	nav ul li a{
-		color: red;
-	}
 	.cont{
 		width: 50%;
 		margin: auto;
@@ -40,21 +37,17 @@
 	}
 }
 
-@media (min-width:900px) and (max-width:1349px){
+@media (min-width:900px) and (max-width:1139px){
 	.Galeria{
 		height: 1050px;
 	}
 }
 
-@media (max-width:1370px){
-	.Responsive{
-		padding-left: 50px;
-	}
-}
+
 
 @media (max-width:900px){
 	footer{
-		height: 780px;
+		height: 1100px;
 		margin: auto;
 	}
 	
@@ -73,5 +66,74 @@
 		display: flex;
 		flex-direction: column;
 		margin: auto;
+	}
+}
+
+@media (max-width: 778px){
+	nav ul li{
+		float: right;
+		padding-top: 5px;
+		padding-right: 5px;
+	}
+	nav ul li a{
+		text-align: center;
+		padding-left: 0;
+	}
+}
+
+@media (max-width:319px){
+	nav ul li{
+		padding-top: 30px;
+	}
+	footer{
+		height: 770px; 
+	}
+}
+
+@media (min-width:320px) and (max-width:559px){
+	.Galeria{
+		height: 1200px;
+	}
+	.Responsive{
+		padding-left: 0;
+	}
+	.Cont{
+		width: 90%;
+	}
+}
+@media (max-width:320px){
+	.Columnas p{
+		padding-left: 0;
+	}
+}
+@media (max-width: 360px){
+	#Cabecera{
+		height: 250px;
+	}
+} 
+
+
+@media (min-width:559) and (max-width:650){
+	footer{
+		height: 1500px;
+	}
+}
+
+@media (max-width: 559px){
+	footer{
+		height: 900px;
+	}
+}
+
+
+@media and (max-width: 718px){
+	footer{
+		height: 1100px;
+	}
+}
+
+@media (max-width: 440px){
+	footer{
+		height: 1100px;
 	}
 }

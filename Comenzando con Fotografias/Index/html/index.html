@@ -23,17 +23,30 @@
         </nav>
      </div>
     </header>
-    <div class="imgCentral">
-        <img src="../Images/Rainbow.jpg" width="800px" height="450px" alt="imgasdasd">
+    <div class="imgCentral"> 
+        <picture>
+            <source media="(min-width: 900px)" srcset="../Images/Rainbow.jpg" heigth="900px">
+        	<source media="(min-width: 560px)" srcset="../Images/Cat.jpg">
+        	<source media="(min-width: 320px)" srcset="../Images/Book.jpg">
+        	<img src="../Images/Small2.jpg" alt="">
+        </picture>
     </div>
     <div class="imgSecundaria">
     	<div class="Imagenes2">
     	<div class="Img1">
-    		<img src="../Images/Bunny1.jpg" alt="">
+    		<picture>
+        	<source media="(min-width: 560px)" srcset="../Images/Bunny1.jpg">
+        	<source media="(min-width: 320px)" srcset="../Images/Book.jpg">
+        	<img src="../Images/Small.jpg" alt="">
+        </picture>
     		<h2>Paisajes</h2>
     	</div>
     	<div class="Img2">
-    		<img src="../Images/Bunny2.jpg" alt="">
+    		<picture>
+        	<source media="(min-width: 560px)" srcset="../Images/Bunny2.jpg">
+        	<source media="(min-width: 320px)" srcset="../Images/Horse.jpg">
+        	<img src="../Images/Small.jpg" alt="">
+        </picture>
     		<h2>Retratos</h2>
     	</div>
     	</div>

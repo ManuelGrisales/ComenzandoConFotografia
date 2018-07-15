@@ -9,14 +9,14 @@ body{
 #Cabecera{
     width: 100%;
     height: 100px;
-  background-color: #5b7989;
+  	background-color: #5b7989;
     border-radius: 10px 10px 0px 0px;
-animation-name: Cabecera-animacion;
-animation-duration: 2s;
--webkit-animation-delay: 1s;
--moz-animation-delay: 1s;
--o-animation-delay: 1s;
-animation-delay: 1s;
+	animation-name: Cabecera-animacion;
+	animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
 }
 @keyframes Cabecera-animacion {
 	0%{
@@ -80,7 +80,7 @@ nav ul li a{
 
 .imgCentral{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: #82c3a6;
 	display: block;
 	padding-top: 50px;

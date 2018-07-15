@@ -9,14 +9,14 @@ body{
 #Cabecera{
     width: 100%;
     height: 100px;
-  background-color: #5b7989;
+  	background-color: #5b7989;
     border-radius: 10px 10px 0px 0px;
 	animation-name: Cabecera-animacion;
-animation-duration: 2s;
--webkit-animation-delay: 1s;
--moz-animation-delay: 1s;
--o-animation-delay: 1s;
-animation-delay: 1s;
+	animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s; 
+	animation-delay: 1s;
 }
 @keyframes Cabecera-animacion {
 	0%{
@@ -29,7 +29,6 @@ animation-delay: 1s;
 		margin-top: 0%;
 	}
 }
-
 .ancho{
   width: 95%;
   height: 100px;
@@ -80,7 +79,7 @@ nav ul li a{
 }
 
 img[src$=jpg]{
-	box-shadow: 2px 2px 2px #02010a;
+	box-shadow: 2px 2px 2px #02010a; 
 }
 
 .Galeria{
@@ -88,6 +87,12 @@ img[src$=jpg]{
 	height: 700px;
 	background-color: red;
 
+}
+
+.cont{
+	width: 100%;
+	height: 700px;
+	margin: auto;
 }
 
 .Responsive{
@@ -104,7 +109,7 @@ img[src$=jpg]{
 	-webkit-filter:sepia(90%);
 }
 
-.Imagen2, .Imagen4, .Imagen6 img{
+.Imagen2, .Imagen4, .Imagen6{
 	-webkit-filter:grayscale(100%);
 } 
 
@@ -135,7 +140,7 @@ footer{
 
 .Columnas p{
 	padding-top: 25px;
-	padding-left:px;
+	padding-left: 30px;
 	font-size: 20px;
 }
 
